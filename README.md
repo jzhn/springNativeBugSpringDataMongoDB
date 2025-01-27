@@ -1,6 +1,6 @@
 # Show project for spring native bug - spring-data-mongodb gives cglib error for interface referenced beans
 
-When `org.springframework.data:spring-data-mongodb` is imported, java native projects with
+When `org.springframework:spring-tx` is imported, java native projects with
 repository beans defined with interface types will encounter exception in runtime about unexpected
 CGLIB usage for the repository class.
 
